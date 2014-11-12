@@ -26,8 +26,7 @@ public class MainActivity extends ActionBarActivity {
         //mButton = (ImageButton)findViewById(R.id.imageButton1);
         //mGridView.addView(mButton, 2, 2);
         
-        // this is the man 
-        // you know this feels so sos os good 
+        
     }
 
 
