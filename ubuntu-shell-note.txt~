@@ -21,6 +21,7 @@ $ git init – for initiating git in a specific folder
 # then follow the instruction to set up ssh protocal in github
 
 aftern neing set up
+$ git add .  - this commands adds  new files so most of the time  before committing this is the command you will run
 
 $ git commit -a to commit all and select which to save and which to not save 
 
@@ -36,20 +37,20 @@ THE CAT COMMAND
 $ cat filename  - to open that file from cat
 $ cat > filename – this opens  that  file for you to write makign it an emopty filename
 $ cat < filename  - it puts the string in the file into command to see 
-$touch filename1 ,  file name2 , filename3 …............  – to open a empty normal text document with file names seperated by comma ,  if only on file name is given that creates only one file 
+$ touch filename1 ,  file name2 , filename3 …............  – to open a empty normal text document with file names seperated by comma ,  if only on file name is given that creates only one file 
 
-$cat file1 file2 ….................. > new file  - this will marge the test content of  file1 ,file2, file3,..... to filen to the new file called 'new file '
+$ cat file1 file2 ….................. > new file  - this will marge the test content of  file1 ,file2, file3,..... to filen to the new file called 'new file '
 
 
 
 RENAME :
 
-mv old_file_name  new_file_name –-----To rename any file or direcory
+$ mv old_file_name  new_file_name –-----To rename any file or direcory
 
 if there are spaces in any of the names then we put that name in '    …' this colon 
  for example  if I have to change a file / dir from laxman to laxman bhattrai the  what I have to execute is 
 
-mv laxman 'laxman bhattarai'
+$ mv laxman 'laxman bhattarai'
 
 
 
@@ -57,12 +58,12 @@ DELETE :
 
 to delte a file :
 
-rm file_name
+$ rm file_name
 
 but if its directory that we are deleting the  we have to delte the files recursively ( -r )
 that is :
 
-rm -r file_name.
+$ rm -r file_name.
 
-Or rmdir  directory_name will also delete a empty directory.
+$ rmdir  directory_name will also delete a empty directory.
 
