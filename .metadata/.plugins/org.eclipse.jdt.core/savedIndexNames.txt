@@ -14,5 +14,4 @@ INDEX VERSION 1.126+/media/adventure/LocalDisk/andengine/prooject/.metadata/.plu
 1886077704.index
 1782607265.index
 2228309596.index
-2418670075.index
 1270315800.index
