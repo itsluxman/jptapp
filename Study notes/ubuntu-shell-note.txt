@@ -13,6 +13,43 @@ VERY IMPORTANT SOFTWARES TO INSTSALL AFTER BOOTING:
 -> and few image editing softwares
 -> youtube-dl
 
+FOR MICROMAX DRIVER :##########################################################################################
+###############################################################################################################
+###############################################################################################################
+
+$ lsusb - find the vendor id of your divice first it will show all the usb connected to pc 
+$ adb devices - to list all the android devices connected 
+********try to kill and start adb server by ***************
+$ adb kill-server
+$ adb start-server 
+
+*********if you still dont see your device in $adb devices then********
+
+$ su
+ type password
+
+# gedit  /etc/udev/rules.d/51-android.rules with root prevelage 
+ 
+copy and paste the following line :
+
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev" 
+
+
+then save it and then we have to change its permission coz we wont be always root to  be able to use adb  then type 
+
+# chmod a+r /etc/udev/rules.d/51-android.rules
+
+#adb kill-server
+#adb start-server
+#exit
+
+$adb devices 
+and now this should show  your devices 
+#######################################################################################################################
+#######################################################################################################################
+#######################################################################################################################
+
 
 TIME FORMATS CONFIG  
 DATE : jan 2014
