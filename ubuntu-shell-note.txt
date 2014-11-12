@@ -1,4 +1,20 @@
-To show the time format in different format from terminal like 
+
+VERY IMPORTANT SOFTWARES TO INSTSALL AFTER BOOTING:
+-> ssh
+-> git
+-> hotp
+-> powertop
+-> vlc
+-> recordmydesktop
+-> simpledesktoprecorder
+-> java 7
+-> write micromax driver
+-> eclipse
+-> and few image editing softwares
+-> youtube-dl
+
+
+TIME FORMATS CONFIG  
 DATE : jan 2014
 TIME : 6:15:59
 
@@ -10,8 +26,6 @@ here % means a variable from system is  following  '  …...............' means 
 %n for  new line 
 %t for a tab 
 etc 
-
-
 
 
 FOR GITHUB :
@@ -29,7 +43,7 @@ $ git push -u origin master : to push the directory as master
 
  but remember you cant do push as master without doing anyth at least you  have to commit something at first 
 
-
+--> for doing this git thing from ssh protocal you need to use ssh protobal and make a ssh finger print from ssh client in the computer and paste that ssh client int setting tab of github for the further setup 
 
 
 THE CAT COMMAND

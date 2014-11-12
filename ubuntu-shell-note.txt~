@@ -1,4 +1,18 @@
-To show the time format in different format from terminal like 
+
+VERY IMPORTANT SOFTWARES TO INSTSALL AFTER BOOTING:
+-> ssh
+-> git
+-> hotp
+-> powertop
+-> vlc
+-> recordmydesktop
+-> simpledesktoprecorder
+-> java 7
+-> write micromax driver
+-> eclipse
+
+
+TIME FORMATS CONFIG  
 DATE : jan 2014
 TIME : 6:15:59
 
@@ -10,8 +24,6 @@ here % means a variable from system is  following  '  …...............' means 
 %n for  new line 
 %t for a tab 
 etc 
-
-
 
 
 FOR GITHUB :
@@ -29,14 +41,17 @@ $ git push -u origin master : to push the directory as master
 
  but remember you cant do push as master without doing anyth at least you  have to commit something at first 
 
-
+--> for doing this git thing from ssh protocal you need to use ssh protobal and make a ssh finger print from ssh client in the computer and paste that ssh client int setting tab of github for the further setup 
 
 
 THE CAT COMMAND
 
 $ cat filename  - to open that file from cat
+
 $ cat > filename – this opens  that  file for you to write makign it an emopty filename
+
 $ cat < filename  - it puts the string in the file into command to see 
+
 $ touch filename1 ,  file name2 , filename3 …............  – to open a empty normal text document with file names seperated by comma ,  if only on file name is given that creates only one file 
 
 $ cat file1 file2 ….................. > new file  - this will marge the test content of  file1 ,file2, file3,..... to filen to the new file called 'new file '
@@ -66,4 +81,5 @@ that is :
 $ rm -r file_name.
 
 $ rmdir  directory_name will also delete a empty directory.
+
 
