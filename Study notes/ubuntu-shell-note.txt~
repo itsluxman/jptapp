@@ -1,0 +1,124 @@
+
+VERY IMPORTANT SOFTWARES TO INSTSALL AFTER BOOTING:
+-> ssh
+-> git
+-> hotp
+-> powertop
+-> vlc
+-> recordmydesktop
+-> simpledesktoprecorder
+-> java 7
+-> write micromax driver
+-> eclipse
+-> and few image editing softwares
+-> youtube-dl
+
+FOR MICROMAX DRIVER :##########################################################################################
+###############################################################################################################
+###############################################################################################################
+
+$ lsusb - find the vendor id of your divice first it will show all the usb connected to pc 
+$ adb devices - to list all the android devices connected 
+********try to kill and start adb server by ***************
+$ adb kill-server
+$ adb start-server 
+
+*********if you still dont see your device in $adb devices then********
+
+$ su
+ type password
+
+# gedit  /etc/udev/rules.d/51-android.rules with root prevelage 
+ 
+copy and paste the following line :
+
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev" 
+
+
+then save it and then we have to change its permission coz we wont be always root to  be able to use adb  then type 
+
+# chmod a+r /etc/udev/rules.d/51-android.rules
+
+#adb kill-server
+#adb start-server
+#exit
+
+$adb devices 
+and now this should show  your devices 
+#######################################################################################################################
+#######################################################################################################################
+#######################################################################################################################
+
+
+TIME FORMATS CONFIG  
+DATE : jan 2014
+TIME : 6:15:59
+
+we  can use the command 
+
+$ date '+DATE : %m  %y %n TIME : %H%:%M:%S
+
+here % means a variable from system is  following  '  …...............' means its a script  and the result inside ' …...' will come in string and we can treat it as an string and use some string functionality on it like 
+%n for  new line 
+%t for a tab 
+etc 
+
+
+FOR GITHUB :
+
+$ git init – for initiating git in a specific folder 
+
+# then follow the instruction to set up ssh protocal in github
+
+aftern neing set up
+$ git add .  - this commands adds  new files so most of the time  before committing this is the command you will run
+
+$ git commit -a to commit all and select which to save and which to not save 
+
+$ git push -u origin master : to push the directory as master 
+
+ but remember you cant do push as master without doing anyth at least you  have to commit something at first 
+
+--> for doing this git thing from ssh protocal you need to use ssh protobal and make a ssh finger print from ssh client in the computer and paste that ssh client int setting tab of github for the further setup 
+
+
+THE CAT COMMAND
+
+$ cat filename  - to open that file from cat
+
+$ cat > filename – this opens  that  file for you to write makign it an emopty filename
+
+$ cat < filename  - it puts the string in the file into command to see 
+
+$ touch filename1 ,  file name2 , filename3 …............  – to open a empty normal text document with file names seperated by comma ,  if only on file name is given that creates only one file 
+
+$ cat file1 file2 ….................. > new file  - this will marge the test content of  file1 ,file2, file3,..... to filen to the new file called 'new file '
+
+
+
+RENAME :
+
+$ mv old_file_name  new_file_name –-----To rename any file or direcory
+
+if there are spaces in any of the names then we put that name in '    …' this colon 
+ for example  if I have to change a file / dir from laxman to laxman bhattrai the  what I have to execute is 
+
+$ mv laxman 'laxman bhattarai'
+
+
+
+DELETE :
+
+to delte a file :
+
+$ rm file_name
+
+but if its directory that we are deleting the  we have to delte the files recursively ( -r )
+that is :
+
+$ rm -r file_name.
+
+$ rmdir  directory_name will also delete a empty directory.
+
+
