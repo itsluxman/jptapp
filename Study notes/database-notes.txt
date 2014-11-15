@@ -56,3 +56,33 @@ Chracteristics of Databse :
            * Concurrency ( same data being  shared in diffrent    applications ).
 -> Reliability and Resilience 
 -> Large volumes 
+
+-> And database approach should be self describing nature , there should be insulation between program, data and 
+   data abstraction.
+-> the databse approach should support multiple views and also sharing of data and multi - user transcation processing .
+
+
+## data in the databse has some chracteristics that are :
+
+** they are shared , presistance ( data in the database remains permanently ) , integraty ( data should be correct with respect to their corresponding  realworld objects ) , secure and consistant ( data must be consistance wtht the data type that stores in )
+
+
+######################################
+    DATABSE SYSTEM VS FILE SYESTEM 
+######################################
+ 1 . data redudancy and inconsistancy :   multiple file types and reduntency of  information in different files 
+ 2 . Difficulty to access data from files as we have to know the architecture of information storage in the files  but 
+     in database management system we can input and output using simple  database queries
+ 3 . data isolation : diffrent data and informations are stored in diffrent files and format which makes it tough to extract 
+      and input  data .
+ 4 . very hard to change the existing information in file and add new information.
+ 5 . concurret access and concurrent changes in a same file may lead to ambuigity whcih is better dealt with in database system .
+ 6 . Security Problems : databse system  makes it possible to provide user access some but not all data .
+ 7 . automicity problem : failure in between two partial states may lead to inconsistancy  is dealt better with databse system  
+     Eg. transfer of fund from one bank to another should either complet or not happean at all 
+
+     In the above activity databse system is offers solutions  entire problems of above .
+
+
+
+
